@@ -1,5 +1,19 @@
 {% extends "home/base.html" %}
 {% load staticfiles %}
 {% block mainBody %}
-hello
+<br>
+<div class="content container">
+            <div class="row">
+
+                <div class="col-md-8"><p><h4>Manage Recipie</h4></p>
+  <form action="." method="post" enctype="multipart/form-data" class="post-form">
+  {{ form.as_p }}
+    <input type="submit" value="submit"/>
+  {% csrf_token %}
+  </form>
+</div>
+</div>
+</div>
+
+<br>
 {% endblock mainBody %}

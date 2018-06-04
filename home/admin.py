@@ -1,5 +1,5 @@
 from django.contrib import admin
-from home.models import itemFood,personalInfo
+from home.models import ItemFood,userInfo
 # Register your models here.
-admin.site.register(itemFood)
-admin.site.register(personalInfo)
+admin.site.register(ItemFood)
+admin.site.register(userInfo)

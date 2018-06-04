@@ -1,4 +1,4 @@
-{% extends "home/base.html" %}
+{% extends "home/../home/base.html" %}
 {% load staticfiles %}
 {% block mainBody %}
     <header>
@@ -44,120 +44,65 @@
 
     <!-- Page Content -->
     <div class="container">
-      <h1 class="my-4" id="motto">{{ message }}</h1>
+      <h1 class="my-4" id="motto">{% if motto %} {{ motto }} {% endif %}</h1>
 
       <!-- Marketing Icons Section -->
-      <div class="row">
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
+{#      <div class="row">#}
+{#        <div class="col-lg-4 mb-4">#}
+{#          <div class="card h-100">#}
+{#            <h4 class="card-header">Card Title</h4>#}
+{#            <div class="card-body">#}
+{#              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>#}
+{#            </div>#}
+{#            <div class="card-footer">#}
+{#              <a href="#" class="btn btn-primary">Learn More</a>#}
+{#            </div>#}
+{#          </div>#}
+{#        </div>#}
+{#        <div class="col-lg-4 mb-4">#}
+{#          <div class="card h-100">#}
+{#            <h4 class="card-header">Card Title</h4>#}
+{#            <div class="card-body">#}
+{#              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>#}
+{#            </div>#}
+{#            <div class="card-footer">#}
+{#              <a href="#" class="btn btn-primary">Learn More</a>#}
+{#            </div>#}
+{#          </div>#}
+{#        </div>#}
+{#        <div class="col-lg-4 mb-4">#}
+{#          <div class="card h-100">#}
+{#            <h4 class="card-header">Card Title</h4>#}
+{#            <div class="card-body">#}
+{#              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>#}
+{#            </div>#}
+{#            <div class="card-footer">#}
+{#              <a href="#" class="btn btn-primary">Learn More</a>#}
+{#            </div>#}
+{#          </div>#}
+{#        </div>#}
+{#      </div>#}
       <!-- /.row -->
-{% for item in activeItems %}
       <!-- Portfolio Section -->
       <h2>Featured Recipies</h2>
-
-      <div class="row">
+    <div class="row">
+    {% if  activeItems %}
+        {% for item in activeItems %}
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
            <!-- <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a> -->
-            <a href="#"><img class="card-img-top" src="/media/{{ item.image_1 }}" alt="">
+            <a href="#"><img class="card-img-top" src="/media/{{ item.image_1 }}" style="max-width: 287px; max-height: 164px; overflow: hidden;"></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="{{ item.image_1 }}">{{ item.title }}</a>
+                <a href="#">{{ item.title }}</a>
               </h4>
-              <p class="card-text">{{ item.descriptionShort }}</p>
+              <p class="card-text">{{ item.description|truncatewords:"15"}}</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Two</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Three</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Four</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Five</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Six</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.row -->
-{% endfor %}
+     {% endfor %}
+    {% endif %}
+    </div><!-- /.row -->
       <!-- Features Section -->
       <div class="row">
         <div class="col-lg-6">

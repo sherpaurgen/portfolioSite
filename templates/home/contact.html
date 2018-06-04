@@ -6,42 +6,37 @@
     <div class="container">
 
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Contact
-        <small>Subheading</small>
-      </h1>
-
+       <br>
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="/home">Home</a>
+            <a href="/">Home</a>
         </li>
         <li class="breadcrumb-item active">Contact</li>
       </ol>
-
       <!-- Content Row -->
       <div class="row">
         <!-- Map Column -->
         <div class="col-lg-8 mb-4">
           <!-- Embedded Google Map -->
-          <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+          <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28876.04777282162!2d55.340291132746046!3d25.219877738645994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1528052939523"></iframe>
         </div>
         <!-- Contact Details Column -->
         <div class="col-lg-4 mb-4">
           <h3>Contact Details</h3>
           <p>
-            {{ user.0 }}
             <br>
           </p>
           <p>
-            <abbr title="Phone">P</abbr>: {{ user.1 }}
+            <abbr title="Phone">P</abbr>: {% if Phone %}  {{ Phone }} {% endif %}
           </p>
           <p>
-            <abbr title="Email">E</abbr>:
-            <a href="mailto:name@example.com">{{ user.2 }}
-            </a>
+            <abbr title="Email">E</abbr>: {% if Email %} <a href="mailto:{{ Email }}">
+            {{ Email }}</a> {% endif %}
           </p>
           <p>
             <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
           </p>
+            <p><img src="https://static.hosco.com/resized/f6939614b69b09b3617144dc28f6051a2386d9b77f25bffbb9e9189cdfbca502.jpg" class="rounded-circle" alt="profile" width="120" height="130"></p>
         </div>
       </div>
       <!-- /.row -->
@@ -50,7 +45,7 @@
       <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
       <div class="row">
         <div class="col-lg-8 mb-4">
-          <h3>Send us a Message</h3>
+          <h4 id="navName">Feel free to drop me a line</h4>
           <form name="sentMessage" id="contactForm" novalidate>
             <div class="control-group form-group">
               <div class="controls">
@@ -80,6 +75,7 @@
             <div id="success"></div>
             <!-- For success/fail messages -->
             <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+            <div class="g-recaptcha" data-sitekey="6Lfy_VwUAAAAAHLDT23FnHDBhgEqizn2JJwVOpq5"></div>
           </form>
         </div>
 

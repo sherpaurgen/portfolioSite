@@ -1,35 +1,33 @@
 from django.db import models
 from django.utils import timezone
+from django.contrib.auth.models import User
 
 # Create your models here.
-class itemFood(models.Model):
-    chefId = models.ForeignKey('auth.User', on_delete=models.CASCADE)
+class ItemFood(models.Model):
+    user = models.ForeignKey(User,default=None)
     title = models.CharField(max_length=100)
-    descriptionShort=models.CharField(max_length=50)
-    descriptionLong=models.TextField()
+    description=models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
-    published_date = models.DateTimeField(blank=True, null=True)
     featured=models.BooleanField(default=True)
     showItem=models.BooleanField(default=True)
-    image_1=models.FileField(null=True, blank=True)
-    image_2=models.FileField(null=True, blank=True)
-
-    def publish(self):
-        self.published_date = timezone.now()
-        self.save()
-
+    image_1=models.ImageField(upload_to='media/%Y/%m/%D/',null=True, blank=True)
+    image_2=models.ImageField(upload_to='media/%Y/%m/%D/',null=True, blank=True)
     def __str__(self):
-        info=str(self.id)+" "+self.title
-        return info
-class personalInfo(models.Model):
+        return self.title
+
+class userInfo(models.Model):
+    #create relationship
+    user=models.ForeignKey(User,default=None)
+    #additional
     chefName = models.CharField(max_length=30,blank=True,null=True)
     about = models.CharField(max_length=200,blank=True,null=True)
-    phone=models.CharField(max_length=50,blank=True,null=True)
-    address=models.CharField(max_length=50,blank=True,null=True)
-    email=models.EmailField(max_length=50,blank=True,null=True)
-    chefId = models.ForeignKey('auth.User', on_delete=models.CASCADE)
-    message=models.CharField(max_length=50,null=True)
+    phone = models.CharField(max_length=50,blank=True,null=True)
+    address = models.CharField(max_length=50,blank=True,null=True)
+    email = models.EmailField(max_length=50,blank=True,null=True)
+    message = models.CharField(max_length=50,null=True)
+    profile_pic1 = models.ImageField(upload_to='media/%Y/%m/%D/', blank=True,null=True)
+    profile_pic2 = models.ImageField(upload_to='media/%Y/%m/%D/', blank=True, null=True)
     def __str__(self):
-        pinfo=str(self.id)+" "+self.chefName
-        return pinfo
+        return self.chefName
+
 
