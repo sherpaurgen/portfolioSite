@@ -1,10 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
- recipe recipe
-</body>
-</html>
+{% extends "home/base.html" %}
+{% load staticfiles %}
+{% block mainBody %}
+<br>
+    <div class="container">
+<div class="row">
+    {% if  items %}
+        {% for item in items %}
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+           <!-- <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a> -->
+            <a href="#"><img class="card-img-top" src="/media/{{ item.image_1 }}" style="max-height: 164px;"></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="/itemDetail/{{ item.pk }}">{{ item.title }}</a>
+              </h4>
+              <p class="card-text">{{ item.description|truncatewords:"15"}}</p>
+            </div>
+          </div>
+        </div>
+     {% endfor %}
+    {% endif %}
+    </div><!-- /.row -->
+
+    </div>
+<br>
+</div>
+
+{% endblock mainBody %}

@@ -16,5 +16,6 @@ urlpatterns = [
     url(r'^login/$',views.login_view,name='login'),
     url(r'^logout/$',views.logout_view,name='logout'),
     url(r'^about/$',views.about,name='about'),
-    url(r'^recipe/$',views.recipy,name='recipy')
+    url(r'^showItem/$',views.showItem.as_view(),name='showItem'),
+    url(r'^itemDetail/(?P<pk>\d+)/$',views.itemDetail.as_view(),name='itemDetail'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

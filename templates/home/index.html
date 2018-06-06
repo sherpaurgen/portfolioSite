@@ -17,7 +17,7 @@
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div  id="itemMain" class="carousel-item" style="background-image: url({% static 'images/steak.jpg' %})">
+          <div  id="itemMain" class="carousel-item" style="background-image: url({% static 'images/panir.jpg' %})">
             <div class="carousel-caption d-none d-md-block">
               <h3>Second Slide</h3>
               <p>This is a description for the second slide.</p>
@@ -84,17 +84,17 @@
 {#      </div>#}
       <!-- /.row -->
       <!-- Portfolio Section -->
-      <h2>Featured Recipies</h2>
+      <h2 >Featured Recipies</h2>
     <div class="row">
     {% if  activeItems %}
         {% for item in activeItems %}
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
            <!-- <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a> -->
-            <a href="#"><img class="card-img-top" src="/media/{{ item.image_1 }}" style="max-width: 287px; max-height: 164px; overflow: hidden;"></a>
+            <a href="#"><img class="card-img-top" src="/media/{{ item.image_1 }}" style="max-height: 164px;"></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">{{ item.title }}</a>
+                <a href="{{ item.pk }}">{{ item.title }}</a>
               </h4>
               <p class="card-text">{{ item.description|truncatewords:"15"}}</p>
             </div>

@@ -20,7 +20,7 @@ class userInfo(models.Model):
     user=models.ForeignKey(User,default=None)
     #additional
     chefName = models.CharField(max_length=30,blank=True,null=True)
-    about = models.CharField(max_length=200,blank=True,null=True)
+    about = models.CharField(max_length=500,blank=True,null=True)
     phone = models.CharField(max_length=50,blank=True,null=True)
     address = models.CharField(max_length=50,blank=True,null=True)
     email = models.EmailField(max_length=50,blank=True,null=True)

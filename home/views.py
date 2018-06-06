@@ -5,29 +5,29 @@ from home.forms import createItemForm,UserInfoForm
 from django.contrib.auth.decorators import login_required
 from django.contrib import auth
 from django.contrib.auth import login,logout
-owner="Urgen Sherpa"
+from django.views.generic import View, ListView, DetailView
 
 def index(request):
     activeItems=ItemFood.objects.filter(featured=True,showItem=True)[0:6]
     motto=userInfo.objects.all().last().message
-    my_dict={'homepage_title':"Gordon Ramsey", 'activeItems':activeItems,'motto':motto,'owner':owner}
+    my_dict={'homepage_title':"Gordon Ramsey", 'activeItems':activeItems,'motto':motto}
     return render(request,'home/index.html',my_dict)
 
 def recipy(request):
     activeItems=ItemFood.objects.filter(featured=True,showItem=True)[0:6]
-    my_dict={'homepage_title':"Gordon Ramsey", 'activeItems':activeItems,'owner':owner}
+    my_dict={'homepage_title':"Gordon Ramsey", 'activeItems':activeItems}
     return render(request,'home/recipe.html',my_dict)
 
 def about(request):
     about = userInfo.objects.all().last().about
     print(about)
-    return render(request,'home/about.html',{'about':about,'owner':owner})
+    return render(request,'home/about.html',{'about':about})
 
 def contact(request):
     ChefName=userInfo.objects.all().last().chefName
     Email=userInfo.objects.all().last().email
     Phone=userInfo.objects.all().last().phone
-    return render(request,'home/contact.html',{'PageTitle':"Contact Me", 'ChefName':ChefName,"Email":Email,"Phone":Phone,'owner':owner})
+    return render(request,'home/contact.html',{'PageTitle':"Contact Me", 'ChefName':ChefName,"Email":Email,"Phone":Phone})
 
 @login_required(login_url='/login')
 def createItemView(request):
@@ -39,7 +39,7 @@ def createItemView(request):
             instance.save()
             print("create food form saved!!")
     form = createItemForm
-    return render(request, 'home/create.html', {'form':form, 'owner':owner})
+    return render(request, 'home/create.html', {'form':form})
 
 @login_required(login_url='/login')
 def ManageProfile(request):
@@ -89,3 +89,13 @@ def logout_view(request):
     else:
         logout(request)
         return redirect('/')
+
+class showItem(ListView):
+    template_name = 'home/recipe.html'
+    context_object_name = "items"
+    model = ItemFood
+
+class itemDetail(DetailView):
+    template_name='home/itemdetail.html'
+    model = ItemFood
+
