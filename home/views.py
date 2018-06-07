@@ -13,10 +13,10 @@ def index(request):
     my_dict={'homepage_title':"Gordon Ramsey", 'activeItems':activeItems,'motto':motto}
     return render(request,'home/index.html',my_dict)
 
-def recipy(request):
-    activeItems=ItemFood.objects.filter(featured=True,showItem=True)[0:6]
-    my_dict={'homepage_title':"Gordon Ramsey", 'activeItems':activeItems}
-    return render(request,'home/recipe.html',my_dict)
+# def recipy(request):
+#     activeItems=ItemFood.objects.filter(featured=True,showItem=True)[0:6]
+#     my_dict={'homepage_title':"Gordon Ramsey", 'activeItems':activeItems}
+#     return render(request,'home/recipe.html',my_dict)
 
 def about(request):
     about = userInfo.objects.all().last().about
@@ -94,6 +94,7 @@ class showItem(ListView):
     template_name = 'home/recipe.html'
     context_object_name = "items"
     model = ItemFood
+    paginate_by = 6
 
 class itemDetail(DetailView):
     template_name='home/itemdetail.html'

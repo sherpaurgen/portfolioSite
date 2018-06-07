@@ -13,12 +13,16 @@
 
               <!-- The slideshow -->
               <div class="carousel-inner">
+                {% if object.image_1 %}
                 <div class="carousel-item active">
                   <img src="/media/{{ object.image_1 }}" alt="Los Angeles" width="1100" height="500">
                 </div>
+                {% endif %}
+                 {% if object.image_2 %}
                   <div class="carousel-item">
                   <img src="/media/{{ object.image_2 }}" alt="New York" width="1100" height="500">
                   </div>
+                  {% endif %}
               </div>
 
               <!-- Left and right controls -->
