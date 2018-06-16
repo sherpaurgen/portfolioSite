@@ -1,16 +1,27 @@
 from django.shortcuts import render,redirect
+from django.core.urlresolvers import reverse_lazy
 from django.contrib.auth.forms import UserCreationForm,AuthenticationForm
 from home.models import ItemFood,userInfo
 from home.forms import createItemForm,UserInfoForm
 from django.contrib.auth.decorators import login_required
 from django.contrib import auth
 from django.contrib.auth import login,logout
-from django.views.generic import View, ListView, DetailView
+from django.views.generic import ListView, DetailView,UpdateView,DeleteView
+from django.shortcuts import get_object_or_404
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 def index(request):
-    activeItems=ItemFood.objects.filter(featured=True,showItem=True)[0:6]
-    motto=userInfo.objects.all().last().message
-    my_dict={'homepage_title':"Gordon Ramsey", 'activeItems':activeItems,'motto':motto}
+    try:
+        activeItems=ItemFood.objects.filter(featured=True,showItem=True)[0:6]
+        motto=userInfo.objects.all().last().message
+        videoUrl=userInfo.objects.all().last().channelUrl
+        profileDetail=userInfo.objects.all().last().profileDetail
+        showcaseimage1=userInfo.objects.all().last().showcaseimage1
+        showcaseimage2 = userInfo.objects.all().last().showcaseimage2
+        showcaseimage3 = userInfo.objects.all().last().showcaseimage3
+        my_dict={'activeItems':activeItems,'motto':motto,'videoUrl':videoUrl,'profileDetail':profileDetail,'carouselimg1':showcaseimage1,'carouselimg2':showcaseimage2,'carouselimg3':showcaseimage3}
+    except:
+        my_dict={}
     return render(request,'home/index.html',my_dict)
 
 # def recipy(request):
@@ -19,15 +30,22 @@ def index(request):
 #     return render(request,'home/recipe.html',my_dict)
 
 def about(request):
-    about = userInfo.objects.all().last().about
-    print(about)
-    return render(request,'home/about.html',{'about':about})
+    try:
+        aboutme = userInfo.objects.all().last().about
+        mydict={'about':aboutme}
+    except:
+        mydict={}
+    return render(request,'home/about.html',mydict)
 
 def contact(request):
-    ChefName=userInfo.objects.all().last().chefName
-    Email=userInfo.objects.all().last().email
-    Phone=userInfo.objects.all().last().phone
-    return render(request,'home/contact.html',{'PageTitle':"Contact Me", 'ChefName':ChefName,"Email":Email,"Phone":Phone})
+    try:
+        ChefName=userInfo.objects.all().last().chefName
+        Email=userInfo.objects.all().last().email
+        Phone=userInfo.objects.all().last().phone
+        mydict={'PageTitle':"Contact Me", 'ChefName':ChefName,"Email":Email,"Phone":Phone}
+    except:
+        mydict={}
+    return render(request,'home/contact.html',mydict)
 
 @login_required(login_url='/login')
 def createItemView(request):
@@ -40,20 +58,6 @@ def createItemView(request):
             print("create food form saved!!")
     form = createItemForm
     return render(request, 'home/create.html', {'form':form})
-
-@login_required(login_url='/login')
-def ManageProfile(request):
-    if request.method=="POST":
-        form=UserInfoForm(request.POST,request.FILES)
-        if form.is_valid():
-            instance=form.save(commit=False)
-            instance.user=request.user
-            instance.save()
-            status="Information saved"
-    form = UserInfoForm
-    status=None
-    return render(request,'home/edituser.html',{'form':form,'status':status})
-
 
 def signup(request):
     if request.method == "POST":
@@ -77,7 +81,7 @@ def login_view(request):
             if user is not None:
                 print(user)
                 auth.login(request, user)
-                return redirect('/manage/')
+                return redirect('/')
     else:
         form = AuthenticationForm()
     return render(request,'home/login.html',{'form':form})
@@ -96,7 +100,49 @@ class showItem(ListView):
     model = ItemFood
     paginate_by = 6
 
+def manageFeatured(request):
+    try:
+        FeaturedItems=ItemFood.objects.filter(featured=True,showItem=True)
+        my_dict={'items':FeaturedItems}
+    except:
+        my_dict={}
+    return render(request,'home/featured.html',my_dict)
+
 class itemDetail(DetailView):
     template_name='home/itemdetail.html'
     model = ItemFood
+
+@login_required(login_url='/login')
+def itemUpdateView(request,pk):
+    data = get_object_or_404(ItemFood,pk=pk)
+    if request.method == 'POST':
+        form=createItemForm(request.POST,request.FILES,instance=data)
+        if form.is_valid():
+            updinstance=form.save(commit=False)
+            updinstance.user=request.user
+            updinstance.save()
+            return redirect(data.get_absolute_url())
+            #return redirect('/itemDetail/{}'.format(data.pk))
+    form = createItemForm(instance=data)
+    return render(request, 'home/create.html', {'form':form})
+
+@login_required(login_url='/login')
+def ManageProfile(request):
+    print(request.user," id is ")
+    pk=request.user.id
+    print(request.user.id)
+    data = get_object_or_404(userInfo, pk=pk)
+    if request.method=="POST":
+        form=UserInfoForm(request.POST,request.FILES,instance=data)
+        if form.is_valid():
+            instance=form.save(commit=False)
+            instance.user=request.user
+            instance.save()
+            status="Information saved"
+    form = UserInfoForm(instance=data)
+    return render(request,'home/edituser.html',{'form':form})
+
+class itemDeleteView(LoginRequiredMixin,DeleteView):
+    model = ItemFood
+    success_url = reverse_lazy("showItem")
 

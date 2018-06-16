@@ -4,7 +4,7 @@
 <br>
 <div class="row">
         <div class="col-md-7 detailCarousel">
-          <div id="demo" class="carousel slide" data-ride="carousel">
+          <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
               <!-- Indicators -->
               <ul class="carousel-indicators">
                 <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -37,7 +37,18 @@
         <div class="col-md-4">
             <h3 class="my-3">{{ object.title }}</h3>
             <p>{{ object.description }}</p>
+            {% if user.is_authenticated %}
+            <p>
+                <a href="{% url 'updateItem' pk=object.pk %}"><button type="button" class="btn btn-warning">Edit</button></a>
+                <form method="post" action="{% url 'deleteItem' object.pk %}">{% csrf_token %}
+                <input type="submit" class="btn btn-danger" value="Delete"/>
+                </form>
+            </p>
+            {% endif %}
+
         </div>
+
 </div>
+
 <br>
 {% endblock mainBody %}

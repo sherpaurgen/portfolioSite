@@ -9,12 +9,13 @@
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
            <!-- <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a> -->
-            <a href="#"><img class="card-img-top" src="/media/{{ item.image_1 }}" style="max-height: 230px;"></a>
+            <a href="#"><img class="card-img-top" src="/media/{{ item.image_1 }}" style="max-height: 164px;"></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="/itemDetail/{{ item.pk }}">{{ item.title }}</a>
+                <a href="/itemDetail/{{ item.pk }}">{{ item.pk }}.{{ item.title }}</a>
               </h4>
               <p class="card-text">{{ item.description|truncatewords:"15"}}</p>
+                <label class="checkbox-inline"><input type="checkbox" value="True" {% if item.featured %} checked {% endif %} >Featured</label>
             </div>
           </div>
         </div>

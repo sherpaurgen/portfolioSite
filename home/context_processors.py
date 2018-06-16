@@ -1,5 +1,8 @@
 from home.models import userInfo
 
 def owner(request):
-    ownername=userInfo.objects.all().last().chefName
+    try:
+        ownername=userInfo.objects.all().last().chefName
+    except:
+        ownername="Empty"
     return {'owner':ownername}

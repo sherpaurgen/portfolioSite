@@ -1,28 +1,34 @@
 {% extends "home/base.html" %}
+{% load crispy_forms_tags %}
 {% load staticfiles %}
 {% block mainBody %}
 <div class="content container">
-    <div class="col">
+
+
         <p><h4>Manage Profile</h4></p>
          <div class="row">
             <div class="col-md-8">
                 <form method="post" enctype="multipart/form-data" class="post-form">
                     {% csrf_token %}
-                    {{  form.as_p }}
-                    <input type="submit" class="btn btn-success" value="submit"/>
+                    {{  form|crispy }}
+                      <div class="btn-group">
+                      <button type="submit" class="btn btn-dark">Save</button>
+                      <button type="button" class="btn btn-warning" onclick="logoutFunction()">Logout</button>
+                      </div>
                 </form>
-                <p>
-                <form action="/logout/" method="post">
-                {%csrf_token%}
-                <button type="submit" class="btn btn-success">Logout</button>
-                </form></p>
             </div>
-         </div>
 
-    </div>
+         </div>
+<form id="logoutform" action="/logout/" method="post">
+                {%csrf_token%}
+</form>
 </div>
 
+
 <br>
-
-
+<script>
+function logoutFunction() {
+    document.getElementById("logoutform").submit();
+}
+</script>
 {% endblock mainBody %}
