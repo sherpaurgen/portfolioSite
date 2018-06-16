@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92869794-2d56-4c10-96d8-d0a54500a7af" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static-lts/images/bg.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/static-lts/images/curd.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static-lts/images/favicon-32x32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static-lts/images/favicon-96x96.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static-lts/images/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static-lts/images/panir.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static-lts/images/plate1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static-lts/images/steak.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html" afterPath="$PROJECT_DIR$/templates/home/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,17 +57,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/home/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="124">
+              <caret line="85" column="61" lean-forward="false" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
+              <folding>
+                <element signature="e#819#911#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
@@ -168,8 +163,8 @@
       <find>updateview</find>
       <find>featu</find>
       <find>third</find>
-      <find>about</find>
       <find>manage</find>
+      <find>about</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,7 +190,6 @@
         <option value="$PROJECT_DIR$/chefsite/settings.py" />
         <option value="$PROJECT_DIR$/home/models.py" />
         <option value="$PROJECT_DIR$/templates/home/edituser.html" />
-        <option value="$PROJECT_DIR$/templates/home/index.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/templates/home/about.html" />
         <option value="$PROJECT_DIR$/home/forms.py" />
@@ -203,6 +197,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/templates/home/create.html" />
         <option value="$PROJECT_DIR$/home/views.py" />
+        <option value="$PROJECT_DIR$/templates/home/index.html" />
       </list>
     </option>
   </component>
@@ -213,8 +208,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="27" />
-    <option name="y" value="22" />
+    <option name="x" value="-135" />
+    <option name="y" value="55" />
     <option name="width" value="1280" />
     <option name="height" value="729" />
   </component>
@@ -252,6 +247,12 @@
               <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="chefsite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -443,15 +444,23 @@
       <option name="project" value="LOCAL" />
       <updated>1529148357632</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fixed usermanage section">
+      <created>1529160287044</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1529160287044</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="22" width="1280" height="729" extended-state="0" />
+    <frame x="-135" y="55" width="1280" height="729" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2587519" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.2648402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="815" y="470" width="665" height="312" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -498,9 +507,9 @@
           <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="27" />
           <folding>
             <element signature="e#819#911#0#HTML" expanded="true" />
-            <element signature="e#1152#1244#0#HTML" expanded="true" />
-            <element signature="e#1487#1580#0#HTML" expanded="true" />
-            <element signature="e#5615#5641#0#HTML" expanded="true" />
+            <element signature="e#1152#1244#0#HTML" expanded="false" />
+            <element signature="e#1487#1580#0#HTML" expanded="false" />
+            <element signature="e#5741#5767#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -587,9 +596,9 @@
           <caret line="40" column="56" lean-forward="false" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
           <folding>
             <element signature="e#819#911#0#HTML" expanded="true" />
-            <element signature="e#1152#1244#0#HTML" expanded="true" />
-            <element signature="e#1487#1580#0#HTML" expanded="true" />
-            <element signature="e#5615#5641#0#HTML" expanded="true" />
+            <element signature="e#1152#1244#0#HTML" expanded="false" />
+            <element signature="e#1487#1580#0#HTML" expanded="false" />
+            <element signature="e#5741#5767#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -753,19 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#819#911#0#HTML" expanded="true" />
-            <element signature="e#1152#1244#0#HTML" expanded="true" />
-            <element signature="e#1487#1580#0#HTML" expanded="true" />
-            <element signature="e#5615#5641#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -846,6 +842,16 @@
           <caret line="140" column="35" lean-forward="false" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="85" column="61" lean-forward="false" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
+          <folding>
+            <element signature="e#819#911#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
