@@ -1,7 +1,7 @@
 {% extends "home/../home/base.html" %}
 {% load staticfiles %}
 {% block mainBody %}
-    <header>
+    <header xmlns="http://www.w3.org/1999/html">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -106,7 +106,9 @@
 {#          <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>#}
 {#        </div>#}
 {#      </div>#}
-      <h2 >Featured Recipies</h2>
+        <p>
+        <h2>Hand picked bits and bites</h2>
+        </p>
     <div class="row">
     {% if  activeItems %}
         {% for item in activeItems %}
