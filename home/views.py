@@ -133,12 +133,11 @@ def itemUpdateView(request,pk):
 @login_required(login_url='/login')
 def ManageProfile(request):
     print(request.user," id is ")
-    pk=request.user.id
-    print(request.user.id)
+    pk = request.user.id
+    data = get_object_or_404(userInfo, pk=pk)
     try:
-        data = get_object_or_404(userInfo, pk=pk)
+        form = UserInfoForm(request.POST, request.FILES, instance=data)
         if request.method == "POST":
-            form=UserInfoForm(request.POST,request.FILES,instance=data)
             if form.is_valid():
                 instance=form.save(commit=False)
                 instance.user=request.user
@@ -147,8 +146,8 @@ def ManageProfile(request):
         form = UserInfoForm(instance=data)
         return render(request,'home/edituser.html',{'form':form})
     except:
+        form = UserInfoForm(request.POST, request.FILES)
         if request.method == "POST":
-            form = UserInfoForm(request.POST, request.FILES)
             if form.is_valid():
                 instance = form.save(commit=False)
                 instance.user = request.user
