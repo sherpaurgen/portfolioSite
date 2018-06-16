@@ -148,13 +148,13 @@ def ManageProfile(request):
         return render(request,'home/edituser.html',{'form':form})
     except:
         if request.method == "POST":
-            form = UserInfoForm(request.POST, request.FILES, instance=data)
+            form = UserInfoForm(request.POST, request.FILES)
             if form.is_valid():
                 instance = form.save(commit=False)
                 instance.user = request.user
                 instance.save()
                 status = "Information saved"
-        form = UserInfoForm(instance=data)
+        form = UserInfoForm()
         return render(request, 'home/edituser.html', {'form': form})
 
 class itemDeleteView(LoginRequiredMixin,DeleteView):
