@@ -135,16 +135,27 @@ def ManageProfile(request):
     print(request.user," id is ")
     pk=request.user.id
     print(request.user.id)
-    data = get_object_or_404(userInfo, pk=pk)
-    if request.method=="POST":
-        form=UserInfoForm(request.POST,request.FILES,instance=data)
-        if form.is_valid():
-            instance=form.save(commit=False)
-            instance.user=request.user
-            instance.save()
-            status="Information saved"
-    form = UserInfoForm(instance=data)
-    return render(request,'home/edituser.html',{'form':form})
+    try:
+        data = get_object_or_404(userInfo, pk=pk)
+        if request.method == "POST":
+            form=UserInfoForm(request.POST,request.FILES,instance=data)
+            if form.is_valid():
+                instance=form.save(commit=False)
+                instance.user=request.user
+                instance.save()
+                status="Information saved"
+        form = UserInfoForm(instance=data)
+        return render(request,'home/edituser.html',{'form':form})
+    except:
+        if request.method == "POST":
+            form = UserInfoForm(request.POST, request.FILES, instance=data)
+            if form.is_valid():
+                instance = form.save(commit=False)
+                instance.user = request.user
+                instance.save()
+                status = "Information saved"
+        form = UserInfoForm(instance=data)
+        return render(request, 'home/edituser.html', {'form': form})
 
 class itemDeleteView(LoginRequiredMixin,DeleteView):
     model = ItemFood
