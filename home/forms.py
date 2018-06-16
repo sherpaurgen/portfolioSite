@@ -36,5 +36,5 @@ class UserInfoForm(ModelForm):
         help_texts = {'showcaseimage1':'try to upload image with 1900x1080 resolution',
                       'showcaseimage2': 'try to upload image with 1900x1080 resolution',
                       'showcaseimage3': 'try to upload image with 1900x1080 resolution',
-                      'channelUrl': 'eg. https://www.youtube.com/embed/tgbNymZ7vqY"'
+                      'channelUrl': 'eg. https://www.youtube.com/embed/tgbNymZ7vqY'
                       }
