@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92869794-2d56-4c10-96d8-d0a54500a7af" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home/index.html" afterPath="$PROJECT_DIR$/templates/home/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home/base.html" afterPath="$PROJECT_DIR$/templates/home/base.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,24 +47,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="119" column="52" lean-forward="false" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="52" />
+            <state relative-caret-position="283">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/home/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-581">
-              <caret line="102" column="78" lean-forward="false" selection-start-line="102" selection-start-column="78" selection-end-line="102" selection-end-column="78" />
+            <state relative-caret-position="16">
+              <caret line="109" column="24" lean-forward="true" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
               <folding>
-                <element signature="e#3577#3583#0#HTML" expanded="true" />
-                <element signature="e#3713#3719#0#HTML" expanded="true" />
+                <element signature="e#3576#3582#0#HTML" expanded="true" />
+                <element signature="e#3582#3588#0#HTML" expanded="true" />
+                <element signature="e#3589#3595#0#HTML" expanded="true" />
+                <element signature="e#3595#3601#0#HTML" expanded="true" />
+                <element signature="e#3728#3734#0#HTML" expanded="true" />
+                <element signature="e#3734#3740#0#HTML" expanded="true" />
+                <element signature="e#3741#3747#0#HTML" expanded="true" />
+                <element signature="e#3747#3753#0#HTML" expanded="true" />
+                <element signature="e#3878#3884#0#HTML" expanded="true" />
+                <element signature="e#3884#3890#0#HTML" expanded="true" />
+                <element signature="e#4756#4762#0#HTML" expanded="true" />
+                <element signature="e#4762#4768#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,7 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>status</find>
       <find>home</find>
       <find>other</find>
       <find>P:</find>
@@ -162,8 +171,9 @@
       <find>featu</find>
       <find>third</find>
       <find>manage</find>
-      <find>featured</find>
       <find>about</find>
+      <find>featured</find>
+      <find>other page</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,8 +205,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/templates/home/create.html" />
         <option value="$PROJECT_DIR$/home/views.py" />
-        <option value="$PROJECT_DIR$/templates/home/base.html" />
         <option value="$PROJECT_DIR$/templates/home/index.html" />
+        <option value="$PROJECT_DIR$/templates/home/base.html" />
       </list>
     </option>
   </component>
@@ -207,8 +217,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="220" />
-    <option name="y" value="42" />
+    <option name="x" value="68" />
+    <option name="y" value="129" />
     <option name="width" value="1038" />
     <option name="height" value="729" />
   </component>
@@ -473,11 +483,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529172677861</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fixed usermanage section">
+      <created>1529173022267</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1529173022267</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="220" y="42" width="1038" height="729" extended-state="0" />
+    <frame x="68" y="129" width="1038" height="729" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27984345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -566,8 +583,18 @@
         <state relative-caret-position="675">
           <caret line="45" column="69" lean-forward="false" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
           <folding>
-            <element signature="e#3577#3583#0#HTML" expanded="true" />
-            <element signature="e#3713#3719#0#HTML" expanded="true" />
+            <element signature="e#3576#3582#0#HTML" expanded="true" />
+            <element signature="e#3582#3588#0#HTML" expanded="true" />
+            <element signature="e#3589#3595#0#HTML" expanded="true" />
+            <element signature="e#3595#3601#0#HTML" expanded="true" />
+            <element signature="e#3728#3734#0#HTML" expanded="true" />
+            <element signature="e#3734#3740#0#HTML" expanded="true" />
+            <element signature="e#3741#3747#0#HTML" expanded="true" />
+            <element signature="e#3747#3753#0#HTML" expanded="true" />
+            <element signature="e#3878#3884#0#HTML" expanded="true" />
+            <element signature="e#3884#3890#0#HTML" expanded="true" />
+            <element signature="e#4756#4762#0#HTML" expanded="true" />
+            <element signature="e#4762#4768#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -842,22 +869,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/base.html">
+    <entry file="file://$PROJECT_DIR$/templates/home/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-581">
-          <caret line="102" column="78" lean-forward="false" selection-start-line="102" selection-start-column="78" selection-end-line="102" selection-end-column="78" />
-          <folding>
-            <element signature="e#3577#3583#0#HTML" expanded="true" />
-            <element signature="e#3713#3719#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="283">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/home/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="119" column="52" lean-forward="false" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="16">
+          <caret line="109" column="24" lean-forward="true" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+          <folding>
+            <element signature="e#3576#3582#0#HTML" expanded="true" />
+            <element signature="e#3582#3588#0#HTML" expanded="true" />
+            <element signature="e#3589#3595#0#HTML" expanded="true" />
+            <element signature="e#3595#3601#0#HTML" expanded="true" />
+            <element signature="e#3728#3734#0#HTML" expanded="true" />
+            <element signature="e#3734#3740#0#HTML" expanded="true" />
+            <element signature="e#3741#3747#0#HTML" expanded="true" />
+            <element signature="e#3747#3753#0#HTML" expanded="true" />
+            <element signature="e#3878#3884#0#HTML" expanded="true" />
+            <element signature="e#3884#3890#0#HTML" expanded="true" />
+            <element signature="e#4756#4762#0#HTML" expanded="true" />
+            <element signature="e#4762#4768#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
