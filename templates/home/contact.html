@@ -36,7 +36,7 @@
           <p>
             <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
           </p>
-            <p><img src="https://static.hosco.com/resized/f6939614b69b09b3617144dc28f6051a2386d9b77f25bffbb9e9189cdfbca502.jpg" class="rounded-circle" alt="profile" width="120" height="130"></p>
+            <p><img {% if contactImg %} src="/media/{{ contactImg }}" {% endif %}class="rounded-circle" alt="profile" width="120" height="130"></p>
         <p>
         <a href="https://www.facebook.com/jigmesherpa1991" class="fa fa-facebook"></a>
         <a href="https://www.facebook.com/jigmesherpa1991" class="fa fa-youtube"></a>

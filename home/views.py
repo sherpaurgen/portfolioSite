@@ -32,19 +32,23 @@ def index(request):
 def about(request):
     try:
         aboutme = userInfo.objects.all().last().about
-        mydict={'about':aboutme}
+        aboutImg= userInfo.objects.all().last().profile_pic1
+        mydict={'about':aboutme,'aboutImg':aboutImg}
     except:
         mydict={}
     return render(request,'home/about.html',mydict)
 
 def contact(request):
     try:
+        print("in try section")
         ChefName=userInfo.objects.all().last().chefName
         Email=userInfo.objects.all().last().email
         Phone=userInfo.objects.all().last().phone
-        mydict={'PageTitle':"Contact Me", 'ChefName':ChefName,"Email":Email,"Phone":Phone}
+        contactImg = userInfo.objects.all().last().profile_pic2
+        mydict={'PageTitle':"Contact Me", 'ChefName':ChefName,"Email":Email,"Phone":Phone,"contactImg":contactImg}
     except:
         mydict={}
+    print("value of ",mydict)
     return render(request,'home/contact.html',mydict)
 
 @login_required(login_url='/login')
