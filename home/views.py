@@ -134,8 +134,9 @@ def itemUpdateView(request,pk):
 def ManageProfile(request):
     print(request.user," id is ")
     pk = request.user.id
-    data = get_object_or_404(userInfo, pk=pk)
+
     try:
+        data = get_object_or_404(userInfo, pk=pk)
         form = UserInfoForm(request.POST, request.FILES, instance=data)
         if request.method == "POST":
             if form.is_valid():
