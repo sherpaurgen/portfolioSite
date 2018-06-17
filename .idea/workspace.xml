@@ -82,10 +82,10 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/home/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="90">
+              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding>
-                <element signature="e#218#252#0#HTML" expanded="true" />
+                <element signature="e#199#233#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -496,13 +496,6 @@
       <option name="presentableId" value="Default" />
       <updated>1525024790845</updated>
     </task>
-    <task id="LOCAL-00002" summary="detailview fixed">
-      <created>1528314158361</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1528314158362</updated>
-    </task>
     <task id="LOCAL-00003" summary="pagination fixed">
       <created>1528344479671</created>
       <option name="number" value="00003" />
@@ -839,7 +832,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529231680217</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="fix contact us and fb links">
+      <created>1529234181050</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1529234181050</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1238,10 +1238,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="90">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding>
-            <element signature="e#218#252#0#HTML" expanded="true" />
+            <element signature="e#199#233#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
