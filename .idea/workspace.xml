@@ -83,9 +83,9 @@
         <entry file="file://$PROJECT_DIR$/templates/home/about.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding>
-                <element signature="e#253#272#0#HTML" expanded="true" />
+                <element signature="e#253#283#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -496,13 +496,6 @@
       <option name="presentableId" value="Default" />
       <updated>1525024790845</updated>
     </task>
-    <task id="LOCAL-00011" summary="requirements.txt added">
-      <created>1529145259946</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1529145259946</updated>
-    </task>
     <task id="LOCAL-00012" summary="fixed usermanage section">
       <created>1529146588163</created>
       <option name="number" value="00012" />
@@ -839,7 +832,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529237471090</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="fix contact us and fb links">
+      <created>1529237623967</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1529237623967</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1239,9 +1239,9 @@
     <entry file="file://$PROJECT_DIR$/templates/home/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
-            <element signature="e#253#272#0#HTML" expanded="true" />
+            <element signature="e#253#283#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
