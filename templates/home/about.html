@@ -2,11 +2,12 @@
 {% load staticfiles %}
 {% block mainBody %}
 <div class="aboutbody">
-<div class="aboutcontainer">
-   <img style="width:100%;" {% if aboutImg %}src="/media/{{ aboutImg }}" {% endif %} alt="">
-     <div class="aboutcontent">
-       <h3>{% if about %}{{ about }}{% endif %}</h3>
-     </div>
-</div>
+    <div class="aboutcontainer">
+        <div class="aboutcontent">
+            <h3>{% if about %}{{ about }}{% endif %}</h3>
+        </div>
+        <img style="width:100%;" {% if aboutImg %}src="/media/{{ aboutImg }}" {% endif %} alt="">
+
+    </div>
 </div>
 {% endblock mainBody %}
