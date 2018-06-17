@@ -2,55 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92869794-2d56-4c10-96d8-d0a54500a7af" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/Team-Cartoon-Headshots-Urgen.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/Team-Cartoon-Headshots-Urgen_76AAoMv.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/chop1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/chop2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/fb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/fb_cc0kgks.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/pizza1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/pizza1_NwW5HPV.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/pizza2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/pizza2_w08jkkk.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/04/18/dis1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/04/18/dish2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/04/18/pizza1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/04/18/pizza2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/gordon1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/gordon2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/momo1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/momo2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/seafood.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/seafood_e2Y63zd.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/spagetti.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/thakali.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/0-neu-d11-5e6ac191a56ac9a934cf3aec0ecb3d6d.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/momo1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/momo2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/seafood.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/spagetti.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/spagetti_IvMNSSW.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/thakali.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/thakali_948ugEm.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/thakali_MiH74nd.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/10/18/gordon1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/10/18/gordon2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/10/18/momo1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/10/18/momo2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/10/18/spagetti.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/11/18/gordon1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/11/18/gordon2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/13/18/seafood.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/13/18/spagetti.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/16/18/Team-Cartoon-Headshots-Urgen.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/16/18/Team-Cartoon-Headshots-Urgen_xHNV0wF.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/16/18/car1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/16/18/car2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/16/18/car3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/16/18/webcam-toy-photo1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/16/18/webcam-toy-photo1_EiYRQlX.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/home/about.html" afterPath="$PROJECT_DIR$/templates/home/about.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -116,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
@@ -126,13 +79,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/home/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="135">
+              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
-                <element signature="e#258#311#0#HTML" expanded="true" />
+                <element signature="e#258#292#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -238,13 +191,13 @@
         <option value="$PROJECT_DIR$/chefsite/urls.py" />
         <option value="$PROJECT_DIR$/templates/home/index.html" />
         <option value="$PROJECT_DIR$/templates/home/recipe.html" />
-        <option value="$PROJECT_DIR$/templates/home/about.html" />
         <option value="$PROJECT_DIR$/home/models.py" />
         <option value="$PROJECT_DIR$/home/views.py" />
         <option value="$PROJECT_DIR$/home/forms.py" />
         <option value="$PROJECT_DIR$/templates/home/base.html" />
         <option value="$PROJECT_DIR$/templates/home/contact.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/templates/home/about.html" />
       </list>
     </option>
   </component>
@@ -872,7 +825,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529228612382</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="fix contact us and fb links">
+      <created>1529228933260</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1529228933260</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1212,16 +1172,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="e#258#311#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/create.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1276,6 +1226,16 @@
         <state relative-caret-position="437">
           <caret line="88" column="6" lean-forward="false" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#258#292#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
