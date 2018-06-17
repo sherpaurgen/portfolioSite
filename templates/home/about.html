@@ -1,21 +1,12 @@
 {% extends "home/base.html" %}
 {% load staticfiles %}
 {% block mainBody %}
-      <br>
-      <div class="row">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-5">
-              <p>
-              <img style="height:450px; width:400px;" {% if aboutImg %}src="/media/{{ aboutImg }}" {% endif %} alt="">
-              </p>
-          </div>
-          <div class="col-sm-5">
-          <p>
-              <h2 class="display-4">About...</h2>
-              <h3>{% if about %}{{ about }}{% endif %}</h3>
-          </p>
-          </div>
-          <div class="col-sm-1"></div>
-      </div>
-
+<div class="aboutbody">
+<div class="aboutcontainer">
+   <img style="width:100%;" {% if aboutImg %}src="/media/{{ aboutImg }}" {% endif %} alt="">
+     <div class="aboutcontent">
+       <h3>{% if about %}{{ about }}{% endif %}</h3>
+     </div>
+</div>
+</div>
 {% endblock mainBody %}
