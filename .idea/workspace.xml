@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92869794-2d56-4c10-96d8-d0a54500a7af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chefsite/urls.py" afterPath="$PROJECT_DIR$/chefsite/urls.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/chefsite.iml" afterPath="$PROJECT_DIR$/.idea/chefsite.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/templates/home/about.html" afterPath="$PROJECT_DIR$/templates/home/about.html" />
+      <change beforePath="$PROJECT_DIR$/templates/home/base.html" afterPath="$PROJECT_DIR$/templates/home/base.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,10 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="510">
               <caret line="38" column="83" lean-forward="false" selection-start-line="38" selection-start-column="83" selection-end-line="38" selection-end-column="83" />
               <folding />
             </state>
@@ -30,7 +42,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
+            <state relative-caret-position="539">
               <caret line="86" column="10" lean-forward="false" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
               <folding />
             </state>
@@ -40,9 +52,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding>
+                <marker date="1529220334000" expanded="true" signature="5807:6077" ph="..." />
+                <marker date="1529220334000" expanded="true" signature="5808:5901" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,30 +65,11 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="99" column="101" lean-forward="false" selection-start-line="99" selection-start-column="101" selection-end-line="99" selection-end-column="101" />
+            <state relative-caret-position="165">
+              <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
               <folding>
-                <element signature="e#3576#3582#0#HTML" expanded="true" />
-                <element signature="e#3582#3588#0#HTML" expanded="true" />
-                <element signature="e#3588#3594#0#HTML" expanded="true" />
-                <element signature="e#3594#3600#0#HTML" expanded="true" />
-                <element signature="e#3601#3607#0#HTML" expanded="true" />
-                <element signature="e#3607#3613#0#HTML" expanded="true" />
-                <element signature="e#3739#3745#0#HTML" expanded="true" />
-                <element signature="e#3745#3751#0#HTML" expanded="true" />
-                <element signature="e#3751#3757#0#HTML" expanded="true" />
-                <element signature="e#3757#3763#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chefsite/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -81,7 +77,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2210">
+            <state relative-caret-position="154">
               <caret line="140" column="35" lean-forward="false" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
@@ -90,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/home/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="98" lean-forward="false" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
+            <state relative-caret-position="133">
+              <caret line="9" column="160" lean-forward="false" selection-start-line="9" selection-start-column="160" selection-end-line="9" selection-end-column="160" />
               <folding />
             </state>
           </provider>
@@ -103,7 +99,7 @@
       <file leaf-file-name="recipe.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home/recipe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
+            <state relative-caret-position="257">
               <caret line="66" column="14" lean-forward="false" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="14" />
               <folding />
             </state>
@@ -113,7 +109,7 @@
       <file leaf-file-name="create.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home/create.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="105">
               <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
               <folding />
             </state>
@@ -123,9 +119,11 @@
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
+            <state relative-caret-position="289">
               <caret line="42" column="107" lean-forward="false" selection-start-line="42" selection-start-column="107" selection-end-line="42" selection-end-column="107" />
-              <folding />
+              <folding>
+                <marker date="1529144901000" expanded="false" signature="3654:3665" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,7 +194,6 @@
         <option value="$PROJECT_DIR$/home/models.py" />
         <option value="$PROJECT_DIR$/templates/home/edituser.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/templates/home/about.html" />
         <option value="$PROJECT_DIR$/home/forms.py" />
         <option value="$PROJECT_DIR$/templates/home/contact.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -205,6 +202,7 @@
         <option value="$PROJECT_DIR$/templates/home/index.html" />
         <option value="$PROJECT_DIR$/templates/home/base.html" />
         <option value="$PROJECT_DIR$/chefsite/urls.py" />
+        <option value="$PROJECT_DIR$/templates/home/about.html" />
       </list>
     </option>
   </component>
@@ -242,22 +240,22 @@
         <subPane>
           <expand>
             <path>
-              <item name="portfolioSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolioSite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolioSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolioSite" type="462c0819:PsiDirectoryNode" />
+              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="chefsite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="portfolioSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolioSite" type="462c0819:PsiDirectoryNode" />
+              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static-lts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="portfolioSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolioSite" type="462c0819:PsiDirectoryNode" />
+              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -287,6 +285,120 @@
       <recent name="$PROJECT_DIR$/media/media" />
       <recent name="$PROJECT_DIR$/media" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/chefsite.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/chefsite/urls.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/home/base.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/home/index.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -518,31 +630,44 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="2" width="1296" height="729" extended-state="0" />
+    <frame x="4" y="22" width="1280" height="729" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3561644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2587519" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.2648402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="336" y="329" width="616" height="114" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.209375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3634895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2587519" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.2648402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="815" y="470" width="665" height="312" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@chefsite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2739726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,7 +702,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="27" />
-          <folding />
+          <folding>
+            <marker date="1529220334000" expanded="true" signature="5807:6077" ph="..." />
+            <marker date="1529220334000" expanded="true" signature="5808:5901" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -615,16 +743,7 @@
         <state relative-caret-position="675">
           <caret line="45" column="69" lean-forward="false" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
           <folding>
-            <element signature="e#3576#3582#0#HTML" expanded="true" />
-            <element signature="e#3582#3588#0#HTML" expanded="true" />
-            <element signature="e#3588#3594#0#HTML" expanded="true" />
-            <element signature="e#3594#3600#0#HTML" expanded="true" />
-            <element signature="e#3601#3607#0#HTML" expanded="true" />
-            <element signature="e#3607#3613#0#HTML" expanded="true" />
-            <element signature="e#3739#3745#0#HTML" expanded="true" />
-            <element signature="e#3745#3751#0#HTML" expanded="true" />
-            <element signature="e#3751#3757#0#HTML" expanded="true" />
-            <element signature="e#3757#3763#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -672,7 +791,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="56" lean-forward="false" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
-          <folding />
+          <folding>
+            <marker date="1529220334000" expanded="true" signature="5807:6077" ph="..." />
+            <marker date="1529220334000" expanded="true" signature="5808:5901" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -827,7 +949,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="322">
           <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="16" />
           <folding />
         </state>
@@ -835,31 +957,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="510">
           <caret line="38" column="83" lean-forward="false" selection-start-line="38" selection-start-column="83" selection-end-line="38" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="98" lean-forward="false" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state relative-caret-position="289">
           <caret line="42" column="107" lean-forward="false" selection-start-line="42" selection-start-column="107" selection-end-line="42" selection-end-column="107" />
-          <folding />
+          <folding>
+            <marker date="1529144901000" expanded="false" signature="3654:3665" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
+        <state relative-caret-position="539">
           <caret line="86" column="10" lean-forward="false" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
           <folding />
         </state>
@@ -867,7 +983,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/recipe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
+        <state relative-caret-position="257">
           <caret line="66" column="14" lean-forward="false" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="14" />
           <folding />
         </state>
@@ -875,7 +991,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/create.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="105">
           <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
           <folding />
         </state>
@@ -883,7 +999,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2210">
+        <state relative-caret-position="154">
           <caret line="140" column="35" lean-forward="false" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
@@ -893,27 +1009,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <marker date="1529220334000" expanded="true" signature="5807:6077" ph="..." />
+            <marker date="1529220334000" expanded="true" signature="5808:5901" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="99" column="101" lean-forward="false" selection-start-line="99" selection-start-column="101" selection-end-line="99" selection-end-column="101" />
+        <state relative-caret-position="165">
+          <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
           <folding>
-            <element signature="e#3576#3582#0#HTML" expanded="true" />
-            <element signature="e#3582#3588#0#HTML" expanded="true" />
-            <element signature="e#3588#3594#0#HTML" expanded="true" />
-            <element signature="e#3594#3600#0#HTML" expanded="true" />
-            <element signature="e#3601#3607#0#HTML" expanded="true" />
-            <element signature="e#3607#3613#0#HTML" expanded="true" />
-            <element signature="e#3739#3745#0#HTML" expanded="true" />
-            <element signature="e#3745#3751#0#HTML" expanded="true" />
-            <element signature="e#3751#3757#0#HTML" expanded="true" />
-            <element signature="e#3757#3763#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -922,6 +1032,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="160" lean-forward="false" selection-start-line="9" selection-start-column="160" selection-end-line="9" selection-end-column="160" />
           <folding />
         </state>
       </provider>
