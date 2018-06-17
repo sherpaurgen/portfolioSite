@@ -2,8 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92869794-2d56-4c10-96d8-d0a54500a7af" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/templates/home/contact.html" afterPath="$PROJECT_DIR$/templates/home/contact.html" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/Team-Cartoon-Headshots-Urgen.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/Team-Cartoon-Headshots-Urgen_76AAoMv.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/chop1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/chop2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/fb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/fb_cc0kgks.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/pizza1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/pizza1_NwW5HPV.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/pizza2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/03/18/pizza2_w08jkkk.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/04/18/dis1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/04/18/dish2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/04/18/pizza1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/04/18/pizza2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/gordon1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/gordon2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/momo1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/momo2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/seafood.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/seafood_e2Y63zd.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/spagetti.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/06/18/thakali.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/0-neu-d11-5e6ac191a56ac9a934cf3aec0ecb3d6d.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/momo1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/momo2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/seafood.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/spagetti.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/spagetti_IvMNSSW.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/thakali.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/thakali_948ugEm.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/08/18/thakali_MiH74nd.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/10/18/gordon1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/10/18/gordon2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/10/18/momo1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/10/18/momo2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/10/18/spagetti.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/11/18/gordon1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/11/18/gordon2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/13/18/seafood.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/13/18/spagetti.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/16/18/Team-Cartoon-Headshots-Urgen.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/16/18/Team-Cartoon-Headshots-Urgen_xHNV0wF.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/16/18/car1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/16/18/car2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/16/18/car3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/16/18/webcam-toy-photo1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/media/2018/06/06/16/18/webcam-toy-photo1_EiYRQlX.jpg" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,6 +116,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="88" column="6" lean-forward="false" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home/about.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,10 +158,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="570">
               <caret line="38" column="140" lean-forward="false" selection-start-line="38" selection-start-column="140" selection-end-line="38" selection-end-column="140" />
               <folding>
                 <marker date="1529228592000" expanded="false" signature="3646:3657" ph="..." />
@@ -181,13 +238,13 @@
         <option value="$PROJECT_DIR$/chefsite/urls.py" />
         <option value="$PROJECT_DIR$/templates/home/index.html" />
         <option value="$PROJECT_DIR$/templates/home/recipe.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/templates/home/about.html" />
         <option value="$PROJECT_DIR$/home/models.py" />
         <option value="$PROJECT_DIR$/home/views.py" />
         <option value="$PROJECT_DIR$/home/forms.py" />
         <option value="$PROJECT_DIR$/templates/home/base.html" />
         <option value="$PROJECT_DIR$/templates/home/contact.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -227,6 +284,62 @@
             <path>
               <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="chefsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
+              <item name="16" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
+              <item name="16" type="462c0819:PsiDirectoryNode" />
+              <item name="18" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
@@ -752,7 +865,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529228555054</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="fix contact us and fb links">
+      <created>1529228612382</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1529228612382</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1068,14 +1188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="87" column="13" lean-forward="false" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -1151,11 +1263,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="570">
           <caret line="38" column="140" lean-forward="false" selection-start-line="38" selection-start-column="140" selection-end-line="38" selection-end-column="140" />
           <folding>
             <marker date="1529228592000" expanded="false" signature="3646:3657" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="88" column="6" lean-forward="false" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
