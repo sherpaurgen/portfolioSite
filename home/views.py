@@ -45,7 +45,10 @@ def contact(request):
         Email=userInfo.objects.all().last().email
         Phone=userInfo.objects.all().last().phone
         contactImg = userInfo.objects.all().last().profile_pic2
-        mydict={'PageTitle':"Contact Me", 'ChefName':ChefName,"Email":Email,"Phone":Phone,"contactImg":contactImg}
+        fblink=userInfo.objects.all().last().fblink
+        instalink=userInfo.objects.all().last().instalink
+        ytlink=userInfo.objects.all().last().ytlink
+        mydict={'PageTitle':"Contact Me", 'ChefName':ChefName,'Email':Email,'Phone':Phone,'contactImg':contactImg,'fblink':fblink,'instalink':instalink,'ytlink':ytlink}
     except:
         mydict={}
     print("value of ",mydict)

@@ -36,6 +36,9 @@ class userInfo(models.Model):
     showcaseimage1= models.ImageField(upload_to='media/%Y/%m/%D/', blank=True, null=True)
     showcaseimage2= models.ImageField(upload_to='media/%Y/%m/%D/', blank=True, null=True)
     showcaseimage3= models.ImageField(upload_to='media/%Y/%m/%D/', blank=True, null=True)
+    fblink=models.URLField(blank=True,null=True)
+    instalink=models.URLField(blank=True,null=True)
+    ytlink=models.URLField(blank=True,null=True)
     def get_absolute_url(self):
         url=reverse("manage")
         return url
