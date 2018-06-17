@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92869794-2d56-4c10-96d8-d0a54500a7af" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/templates/home/contact.html" afterPath="$PROJECT_DIR$/templates/home/contact.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -106,7 +107,7 @@
             <state relative-caret-position="208">
               <caret line="38" column="140" lean-forward="false" selection-start-line="38" selection-start-column="140" selection-end-line="38" selection-end-column="140" />
               <folding>
-                <marker date="1529228544000" expanded="false" signature="3646:3657" ph="..." />
+                <marker date="1529228592000" expanded="false" signature="3646:3657" ph="..." />
               </folding>
             </state>
           </provider>
@@ -744,7 +745,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529228547245</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="fix contact us and fb links">
+      <created>1529228555054</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1529228555054</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1146,7 +1154,7 @@
         <state relative-caret-position="208">
           <caret line="38" column="140" lean-forward="false" selection-start-line="38" selection-start-column="140" selection-end-line="38" selection-end-column="140" />
           <folding>
-            <marker date="1529228544000" expanded="false" signature="3646:3657" ph="..." />
+            <marker date="1529228592000" expanded="false" signature="3646:3657" ph="..." />
           </folding>
         </state>
       </provider>
