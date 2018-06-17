@@ -4,15 +4,24 @@
 
 
 <br>
-    <div class="container">
-    <img class="img-fluid mb-5 d-block mx-auto rounded-circle" {% if aboutImg %}src="/media/{{ aboutImg }}" {% endif %} alt="">
 
-        <h2 class="text-center display-4">About me ...</h2>
-        <hr class="star-dark mb-5">
-            <div class="text-center">
-            {% if about %}{{ about }}{% endif %}
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" {% if aboutImg %}src="/media/{{ aboutImg }}" {% endif %} alt="">
             </div>
-    </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h2 class="display-4">Lets get to know eachother...</h2>
+              <p>{% if about %}{{ about }}{% endif %}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
