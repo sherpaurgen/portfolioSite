@@ -4,14 +4,15 @@
 
 
 <br>
-    <div class="row"><div class="col-md-4  text-center"></div>
+    <div class="row"><div class="col-md-3  text-center"></div>
         <div class="col-md-4  text-center">
         <ul class="list-group list-group-flush">
             <li class="list-group-item"><img {% if aboutImg %}src="/media/{{ aboutImg }}" {% endif %} class="rounded-circle" alt="profile" width="500" height="500"/></li>
-            {% if about %}  <li class="list-group-item">{{ about }} {% endif %}</li>
+            {% if about %}
+            <li class="list-group-item">{{ about }}{% endif %}</li>
         </ul>
         </div>
-    <div class="col-md-4  text-center"></div>
+    <div class="col-md-5 text-center"></div>
     </div>
 
 
