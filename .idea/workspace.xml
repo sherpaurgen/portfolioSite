@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92869794-2d56-4c10-96d8-d0a54500a7af" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html" afterPath="$PROJECT_DIR$/templates/home/index.html" />
+      <change beforePath="$PROJECT_DIR$/templates/home/contact.html" afterPath="$PROJECT_DIR$/templates/home/contact.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -114,13 +114,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/home/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="140" lean-forward="false" selection-start-line="38" selection-start-column="140" selection-end-line="38" selection-end-column="140" />
+            <state relative-caret-position="210">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="14" selection-end-column="13" />
               <folding>
-                <marker date="1529228592000" expanded="false" signature="3646:3657" ph="..." />
+                <marker date="1529559176000" expanded="false" signature="3670:3681" ph="..." />
               </folding>
             </state>
           </provider>
@@ -195,12 +195,12 @@
         <option value="$PROJECT_DIR$/home/models.py" />
         <option value="$PROJECT_DIR$/home/views.py" />
         <option value="$PROJECT_DIR$/home/forms.py" />
-        <option value="$PROJECT_DIR$/templates/home/contact.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/templates/home/create.html" />
         <option value="$PROJECT_DIR$/templates/home/base.html" />
         <option value="$PROJECT_DIR$/templates/home/about.html" />
         <option value="$PROJECT_DIR$/templates/home/index.html" />
+        <option value="$PROJECT_DIR$/templates/home/contact.html" />
       </list>
     </option>
   </component>
@@ -243,58 +243,7 @@
             <path>
               <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="chefsite" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="chefsite" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-              <item name="06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-              <item name="06" type="462c0819:PsiDirectoryNode" />
-              <item name="06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-              <item name="06" type="462c0819:PsiDirectoryNode" />
-              <item name="06" type="462c0819:PsiDirectoryNode" />
-              <item name="16" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-              <item name="06" type="462c0819:PsiDirectoryNode" />
-              <item name="06" type="462c0819:PsiDirectoryNode" />
-              <item name="16" type="462c0819:PsiDirectoryNode" />
-              <item name="18" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
@@ -305,6 +254,12 @@
               <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="chefsite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chefsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chefsite" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -384,13 +339,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525024790845</updated>
-    </task>
-    <task id="LOCAL-00025" summary="fixed usermanage section">
-      <created>1529205447054</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1529205447054</updated>
     </task>
     <task id="LOCAL-00026" summary="fixed usermanage section">
       <created>1529220975488</created>
@@ -728,7 +676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529515957383</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="fix contact us and fb links">
+      <created>1529516510601</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1529516510601</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1061,16 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="140" lean-forward="false" selection-start-line="38" selection-start-column="140" selection-end-line="38" selection-end-column="140" />
-          <folding>
-            <marker date="1529228592000" expanded="false" signature="3646:3657" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
@@ -1103,6 +1048,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="88" column="93" lean-forward="false" selection-start-line="88" selection-start-column="93" selection-end-line="88" selection-end-column="93" />
+          <folding>
+            <element signature="e#4298#4324#0#HTML" expanded="true" />
+            <element signature="e#4404#4446#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1113,13 +1069,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/home/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="88" column="93" lean-forward="false" selection-start-line="88" selection-start-column="93" selection-end-line="88" selection-end-column="93" />
+        <state relative-caret-position="210">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="e#4298#4324#0#HTML" expanded="true" />
-            <element signature="e#4404#4446#0#HTML" expanded="true" />
+            <marker date="1529559176000" expanded="false" signature="3670:3681" ph="..." />
           </folding>
         </state>
       </provider>
