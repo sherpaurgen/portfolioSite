@@ -16,13 +16,12 @@
                 <a href="/itemDetail/{{ item.pk }}">{{ item.title|title }}</a>
               </h4>
               <p class="card-text">{{ item.description|truncatewords:"15"}}</p>
-
-              {% social_widget_render "facebook/likebox.html" href="https://www.facebook.com/FacebookDevelopers" %}
             </div>
           </div>
         </div>
      {% endfor %}
     {% endif %}
+ {% social_widget_render "facebook/likebox.html" href="https://www.facebook.com/FacebookDevelopers" %}
     </div><!-- /.row -->
 {% if is_paginated %}
   <nav>
